@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="text-top">
-      QEWD-Up NuxtJS 2 demo app
+      QEWD-Up NuxtJS 3 demo app
       <span v-if="!qewdReady" class="text-red"> (the QEWD-Up server is down!)</span>
     </div>
     <slot />

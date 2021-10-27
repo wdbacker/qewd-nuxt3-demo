@@ -17,7 +17,7 @@
           </p>
           <p class="mt-4 pt-4 text-gray-800 border-t border-dashed">
             <button class="bg-gray-900 text-gray-100 rounded hover:bg-gray-800 px-4 py-2 focus:outline-none" @click="sendWebSocketMessage">Send (WS)</button>
-            <button class="bg-gray-900 text-gray-100 rounded hover:bg-gray-800 px-4 py-2 focus:outline-none" @click="sendRESTMessage">Send (REST)</button>
+            <button class="bg-gray-900 text-gray-100 rounded hover:bg-gray-800 px-4 py-2 focus:outline-none ml-2" @click="sendRESTMessage">Send (REST)</button>
             <NuxtLink to="/" no-prefetch class="bg-gray-900 text-gray-100 rounded hover:bg-gray-800 px-4 py-2 float-right focus:outline-none">To homepage</NuxtLink>
           </p>
         </div>
