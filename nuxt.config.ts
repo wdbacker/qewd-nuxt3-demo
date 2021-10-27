@@ -5,6 +5,6 @@ export default defineNuxtConfig({
     'nuxt-windicss',
   ],
   publicRuntimeConfig: {
-    qewdUrl: process.env.QEWD_URL || 'http://qewd-dev.local:8080'
+    qewdUrl: process.env.QEWD_URL || 'http://localhost:8080'
   },
 })
